@@ -15,5 +15,7 @@ def get_the_values(groceries)
   meat: ["chicken", "steak", "salmon"],
  grains: ["rice", "pasta"]
  }
- groceries.values
+ groceries.each do |type,food|
+   type.each do|attribute,value|
+   
 end

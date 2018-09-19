@@ -15,13 +15,6 @@ def get_the_values(groceries)
   meat: ["chicken", "steak", "salmon"],
  grains: ["rice", "pasta"]
  }
- groceries.each do |type,food|
-   type.each do|attribute,value|
-   if attribute == groceries
-      value.each do |type|
-        
-        puts "#{type}"
-      end
-    end
+ groceries.values
   end
 
